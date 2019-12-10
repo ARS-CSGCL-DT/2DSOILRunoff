@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Application" Version="11.0" ProjectIdGuid="{41E5F253-21DE-466A-94D0-92972D6AA3FD}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" DeleteExtensionsOnClean="*.obj;*.mod;*.pdb;*.asm;*.map;*.dyn;*.dpi;*.tmp;*.log;*.ilk;*.exe;$(TargetPath)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32" DeleteExtensionsOnClean="*.obj;*.mod;*.pdb;*.asm;*.map;*.dyn;*.dpi;*.tmp;*.log;*.ilk;*.exe;$(TargetPath)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd;h;inc">
+		<File RelativePath="NITVAR.INS"/>
+		<File RelativePath="public.ins"/>
+		<File RelativePath="PUPLANT.INS"/>
+		<File RelativePath="PUWEATH.INS"/>
+		<File RelativePath="resource.h"/></Filter>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="2DMAIZSIM.FOR"/>
+		<File RelativePath="dateFunctions.for"/>
+		<File RelativePath="ERRMES.FOR"/>
+		<File RelativePath="Ex14-5.for"/>
+		<File RelativePath="GRID_BND.FOR"/>
+		<File RelativePath="HEATMOV.FOR"/>
+		<File RelativePath="hourwea.for"/>
+		<File RelativePath="Init.for"/>
+		<File RelativePath="ORTHOFEM.FOR"/>
+		<File RelativePath="OUTPUT.FOR"/>
+		<File RelativePath="Plant.for"/>
+		<File RelativePath="SetBoundary.for"/>
+		<File RelativePath="SETMAT01.FOR"/>
+		<File RelativePath="SETSUR02.FOR"/>
+		<File RelativePath="SETTDB.FOR"/>
+		<File RelativePath="solmov.for"/>
+		<File RelativePath="SurfaceWaterBalanceAdjustment.for"/>
+		<File RelativePath="SYNCHRON.FOR"/>
+		<File RelativePath="Watmov.for"/>
+		<File RelativePath="WMassbl.for"/></Filter></Files>
+	<Globals/></VisualStudioProject>
